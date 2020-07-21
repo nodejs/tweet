@@ -12,6 +12,8 @@ Create a new file `tweets/hello-world.tweet` with the content
 
 You can use subfolders, e.g. `tweets/2019-02/hello-world.tweet`, as long as the file is in the `tweets/` folder and has the `.tweet` file extension
 
+<!-- commented out since we've not turned on the Twitter Ads API for our app - if you'd like to create a poll, ping social team members directly or in #nodejs-social on the OpenJS Foundation Slack
+
 ## Create a tweet with a twitter poll
 
 **Note**: The configured twitter account needs to be authorized to use Twitters Ads API in order to send tweets including a poll.
@@ -24,6 +26,8 @@ A tweet including a poll must end with 2-4 options in the following format
 > ( ) option B  
 > ( ) option C  
 > ( ) option D
+
+->
 
 ## Notes
 
