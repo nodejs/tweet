@@ -27,7 +27,7 @@ A tweet including a poll must end with 2-4 options in the following format
 > ( ) option C  
 > ( ) option D
 
-->
+-->
 
 ## Notes
 
