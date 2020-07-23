@@ -4,7 +4,7 @@ A repository for the Social Team to manage [@nodejs](https://twitter.com/nodejs)
 
 ## How we approach content for Twitter
 
-Both Social Team mebmers and Node.js project collaborators submitting PRs should approach creating content for Twitter in the same way:
+Both Social Team members and Node.js project collaborators submitting PRs should approach creating content for Twitter in the same way:
 
 - The language being written should be as precise and clear as possible.
 - There should generally be no hashtags contained within, unless they are relevant to real-world events like conferences.
