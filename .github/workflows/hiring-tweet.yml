@@ -22,5 +22,6 @@ jobs:
         with:
           title: "tweet: monthly hiring tweet"
           body: "Here's the monthly hiring tweet. Please review and then ship it."
+          branch: "actions/hiring"
           commit-message: 'tweet: monthly hiring tweet'
           labels: tweet

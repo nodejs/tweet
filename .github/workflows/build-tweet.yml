@@ -22,5 +22,6 @@ jobs:
         with:
           title: "tweet: monthly build tweet"
           body: "Here's a PR for this month's build tweet. Please check the [Build WG's README](https://github.com/nodejs/build#infrastructure-providers) to validate we're thanking the correct companies."
+          branch: "actions/hiring"
           commit-message: 'tweet: monthly build tweet'
           labels: tweet
