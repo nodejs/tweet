@@ -1,4 +1,3 @@
-update
 on:
   schedule:
     # At 09:00 on the first day of the month, every month.
@@ -6,6 +5,7 @@ on:
     - cron: "0 9 1 * *"
   workflow_dispatch:
 
+name: Create Hiring Tweet
 jobs:
   create-hiring-tweet:
     if: github.repository == 'nodejs/tweet'
