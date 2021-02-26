@@ -1,0 +1,26 @@
+update
+on:
+  schedule:
+    # At 09:00 on the 28th day of the month, every month.
+    # https://crontab.guru/#0_9_28_*_*
+    - cron: "0 9 28 * *"
+  workflow_dispatch:
+
+jobs:
+  create-build-tweet:
+    if: github.repository == 'nodejs/tweet'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - run: "./scripts/recurring/build.js" # run the build tweet tweet builder
+      - uses: gr2m/create-or-update-pull-request-action@v1.x # create a PR or update the Action's existing PR
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          title: "tweet: monthly build tweet"
+          body: "Here's a PR for this month's build tweet. Please check the [Build WG's README](https://github.com/nodejs/build#infrastructure-providers) to  thvalidateat we're thanking the correct companies."
+          commit-message: 'tweet: monthly build tweet'
+          labels: tweet

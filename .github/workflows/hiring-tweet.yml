@@ -1,0 +1,26 @@
+update
+on:
+  schedule:
+    # At 09:00 on the first day of the month, every month.
+    # https://crontab.guru/#0_9_1_*_*
+    - cron: "0 9 1 * *"
+  workflow_dispatch:
+
+jobs:
+  create-hiring-tweet:
+    if: github.repository == 'nodejs/tweet'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - run: "./scripts/recurring/hiring.js" # run the hiring tweet tweet builder
+      - uses: gr2m/create-or-update-pull-request-action@v1.x # create a PR or update the Action's existing PR
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          title: "tweet: monthly hiring tweet"
+          body: "Here's the monthly hiring tweet. Please review and then ship it."
+          commit-message: 'tweet: monthly hiring tweet'
+          labels: tweet
