@@ -2,7 +2,7 @@ const writeTweet = require('../writeTweet')
 
 const type = 'build'
 
-const tweet = `Thanks those that provide infrastructure to the Build WG:
+const tweet = `Thanks to those that provide infrastructure to the Build WG:
 
 Tier 1:
 ✨ @digitalocean
