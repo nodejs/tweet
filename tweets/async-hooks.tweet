@@ -1,0 +1,1 @@
+If you use async_hooks with #nodejs please make sure to read https://nodejs.medium.com/what-use-cases-exist-for-async-hooks-6eab74d7eefd and comment on the issue so that we have your use case in the list.
