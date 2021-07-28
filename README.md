@@ -18,5 +18,5 @@ This list should not be expected to be comprehensive nor exclusive, and may be c
 
 ### Other tips for tweets:
 
-- If you are driving folks to a link, place that link at the end of the tweet so that Twitter displays the content the best way it knows how. (Twitter card or whatever it is called.)
+- If you are driving folks to a link, place that link at the end of the tweet so that Twitter displays the content as a Twitter Card.
 - Are you trying to get people to take some sort of action? (Read blog post, participate in an event, etc...) If so, then make that "call to action" text clear and use encouraging language.
