@@ -15,3 +15,8 @@ Both Social Team members and Node.js project collaborators submitting PRs should
 - We aim to support and amplify ecosystem members who are doing interesting and nice work.
 
 This list should not be expected to be comprehensive nor exclusive, and may be clarified, ammended, or otherwise modified to ensure that the way the Social Team works in the context of our Twitter account is well represented here.
+
+### Other tips for tweets:
+
+- If you are driving folks to a link, place that link at the end of the tweet so that Twitter displays the content the best way it knows how. (Twitter card or whatever it is called.)
+- Are you trying to get people to take some sort of action? (Read blog post, participate in an event, etc...) If so, then make that "call to action" text clear and use encouraging language.
