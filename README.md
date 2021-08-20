@@ -10,9 +10,10 @@ Both Social Team members and Node.js project collaborators submitting PRs should
 - There should generally be no hashtags contained within, unless they are relevant to real-world events like conferences.
   - Hashtags like #nodejs or #javascript are relatively unused outside of spam at this point, and add no additional semantic value on Twitter.
 - We do not amplify or share content that could unduly promote or benefit one corporation that does work in the space of Node.js over another.
-- Where possible, we try to amplify the collaborators who are doing the work rather than anonymously taking credit for it as the project.
-  - As an example, we try to amplify those on the Release Team who are cutting releases directly rather than tweeting release announcements directly from the project's account.
-  - As an exception, in the case where important or potentially negative content is being shared, using the main account's voice is preferable to both reduce potential negative impact on the indivduals we'd be amplifying and increase the message's signal to end-users (seeing someone you don't know vs. seeing the account have different levels of impact).
+- We try to amplify the collaborators who are doing the work rather than anonymously taking credit for it as the project.
+  - For general releases, we try to amplify those on the Release Team who are cutting releases directly rather than tweeting release announcements directly from the project's account.
+  - For security releases, it is important that the tweet be from an authoritative source that everyone will immediately recognize. So announcements for those releases are made directly from the project account.
+- In situations where a collaborator might become a target for harassment, post from the project account directly.
 - We aim to support and amplify ecosystem members who are doing interesting and nice work.
 
 This list should not be expected to be comprehensive nor exclusive, and may be clarified, ammended, or otherwise modified to ensure that the way the Social Team works in the context of our Twitter account is well represented here.
