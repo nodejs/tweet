@@ -25,4 +25,4 @@ This list should not be expected to be comprehensive nor exclusive, and may be c
 
 ## Request a tweet from the [@nodejs](https://twitter.com/nodejs) Twitter account
 
-To request a tweet from the account, follow the instructions here: [/tweets](./tweets/)
+To request a tweet from the @nodejs account, follow the instructions here: [/tweets](./tweets/)
