@@ -22,3 +22,7 @@ This list should not be expected to be comprehensive nor exclusive, and may be c
 
 - If you are driving folks to a link, place that link at the end of the tweet so that Twitter displays the content as a Twitter Card.
 - Are you trying to get people to take some sort of action? (Read blog post, participate in an event, etc...) If so, then make that "call to action" text clear and use encouraging language.
+
+## Request a tweet from the [@nodejs](https://twitter.com/nodejs) Twitter account
+
+To request a tweet from the @nodejs account, follow the instructions here: [/tweets](./tweets/)
