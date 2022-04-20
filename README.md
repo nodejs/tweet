@@ -26,3 +26,20 @@ This list should not be expected to be comprehensive nor exclusive, and may be c
 ## Request a tweet from the [@nodejs](https://twitter.com/nodejs) Twitter account
 
 To request a tweet from the @nodejs account, follow the instructions here: [/tweets](./tweets/)
+
+## Process for tweets regarding Node.js releases:
+
+For all major and minor releases, the following process should be done:
+
+1. Retweet canonical tweet from person leading the effort
+1. Quote tweet the canonical tweet with the following language:
+
+```
+📣 Node.js vX.x.x now available
+
+$ nvm install x.x.x
+
+Thank you to all the people who helped make it happen 🙌
+```
+
+For security release tweets, the process is documented here: https://github.com/nodejs/node/blob/master/doc/contributing/security-release-process.md
