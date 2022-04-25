@@ -32,7 +32,7 @@ To request a tweet from the @nodejs account, follow the instructions here: [/twe
 For all major and minor releases, the following process should be done:
 
 1. Retweet canonical tweet from person leading the effort
-1. Quote tweet the canonical tweet with the following language:
+1. Quote tweet the canonical tweet with the following language: (if possible wait 1-2hrs after step 1, the retweet above)
 
 ```
 📣 Node.js vX.x.x now available
