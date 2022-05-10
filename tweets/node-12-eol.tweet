@@ -1,0 +1,5 @@
+FYI: Node.js 12.x went EOL 🪦 on April 30, 2022.
+
+Please be sure you’re using Node.js v14.x or above in your production applications. We recommend v16.x LTS.
+
+Check out our Release Schedule at https://github.com/nodejs/Release#release-schedule
