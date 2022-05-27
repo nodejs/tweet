@@ -1,0 +1,27 @@
+on:
+  schedule:
+    # At 09:00 every day.
+    # https://crontab.guru/#0_9_*_*_*
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+
+name: Create Version Update Tweet
+jobs:
+  create-build-tweet:
+    if: github.repository == 'nodejs/tweet'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '18'
+      - run: "node ./scripts/recurring/update.js" # run the build tweet tweet builder
+      - uses: gr2m/create-or-update-pull-request-action@v1.x # create a PR or update the Action's existing PR
+        env:
+          GITHUB_TOKEN: ${{ secrets.NODEJS_TWEET }}
+        with:
+          title: "tweet: version update reminder tweet"
+          body: "Here's a reminder tweet to update Node.js versions"
+          branch: actions/build
+          commit-message: 'tweet: version update reminder tweet'
+          labels: tweet
