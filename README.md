@@ -12,8 +12,12 @@ Both Social Team members and Node.js project collaborators submitting PRs should
 - We do not amplify or share content that could unduly promote or benefit one corporation that does work in the space of Node.js over another.
 - We try to amplify the collaborators who are doing the work rather than anonymously taking credit for it as the project.
   - For minor and patch releases, we try to amplify those on the Release Team who are cutting releases directly rather than tweeting release announcements directly from the project's account.
-  - For major releases, it is important that the tweet come directly from the Node.js Twitter account (the authoritative source) so that readers will immediately recognize the announcement. Direct tweets for majors helps ensure maximal engagement and reach of the project's release. Additionally, if there is an announcement tweet from collaborators who put in the effort to make the security release happen, those tweets should also be amplified with a retweet from the Node.js account.
-  - For security releases, it is important that the tweet come directly from the Node.js Twitter account (the authoritative source) so that readers will immediately recognize the announcement. Direct tweets for security releases helps ensure maximal engagement and reach of the project's release. Additionally, if there is an announcement tweet from collaborators who put in the effort to make the security release happen, those tweets should also be amplified with a retweet from the Node.js account.
+  - For major releases, it is important that the tweet come directly from the Node.js Twitter account (the authoritative source) for several reasons:
+    - Direct tweets enable readers immediately recognize the announcement from an authoratative source that they know.
+    - Direct tweets for majors helps ensure maximal engagement and reach of the project's release.
+    - Direct tweets ensure that the official message is online and endures, regardless of external factors.
+  - For security releases, it is important that the tweet come directly from the Node.js Twitter account (the authoritative source) so that readers will immediately recognize the announcement. Direct tweets for security releases helps ensure maximal engagement and reach of the project's release.
+  - Additionally, **if**  there is an announcement tweet from Releasers who put in the effort to make any given major release or security release happen, those tweets should also be amplified with a retweet from the Node.js account.
 - In situations where a collaborator might become a target for harassment, post from the project account directly.
 - We aim to support and amplify ecosystem members who are doing interesting and nice work.
 
