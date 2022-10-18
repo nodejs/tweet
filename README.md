@@ -21,6 +21,7 @@ This list should not be expected to be comprehensive nor exclusive, and may be c
 ### Other tips for tweets:
 
 - If you are driving folks to a link, place that link at the end of the tweet so that Twitter displays the content as a Twitter Card.
+- If you are including a link, do not include an image. Doing so dramatically (double digit percentages) reduces engagement with that link.
 - Are you trying to get people to take some sort of action? (Read blog post, participate in an event, etc...) If so, then make that "call to action" text clear and use encouraging language.
 
 ## Request a tweet from the [@nodejs](https://twitter.com/nodejs) Twitter account
