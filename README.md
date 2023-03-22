@@ -1,6 +1,6 @@
 # nodejs/tweet
 
-The Node.js Social Handles ([Twitter](https://twitter.com/nodejs), [LinkedIn](https://www.linkedin.com/company/node-js), [Facebook](https://www.facebook.com/nodejsfoundation/) and [Mastodon](https://social.lfx.dev/@nodejs)) are operated by the OpenJS Foundation.
+The Node.js Social handles ([Twitter](https://twitter.com/nodejs), [LinkedIn](https://www.linkedin.com/company/node-js), [Facebook](https://www.facebook.com/nodejsfoundation/), and [Mastodon](https://social.lfx.dev/@nodejs)) are operated by the OpenJS Foundation.
 
 * **For retweets, likes, and other simple requests**: Ping the [Node.js Social Team Slack Channel](https://openjs-foundation.slack.com/archives/C0142A39BNE). Tag the `@nodejs-social-team` handle for fastest response.
 * **For planned announcements and longer form posts**: Please fill out the [Node.js Social Request Form](https://forms.gle/Y5Jo42tb1AMqn9Rj8).
