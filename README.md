@@ -1,6 +1,15 @@
 # nodejs/tweet
 
-A repository for the Social Team to manage [@nodejs](https://twitter.com/nodejs) through GitHub and to document how we approach content for the account.
+The Node.js Social handles ([Twitter](https://twitter.com/nodejs), [LinkedIn](https://www.linkedin.com/company/node-js), [Facebook](https://www.facebook.com/nodejsfoundation/), and [Mastodon](https://social.lfx.dev/@nodejs)) are operated by the OpenJS Foundation.
+
+* **For retweets, likes, and other simple requests**: Ping the [Node.js Social Team Slack Channel](https://openjs-foundation.slack.com/archives/C0142A39BNE). Tag the `@nodejs-social-team` handle for fastest response.
+* **For planned announcements and longer form posts**: Please fill out the [Node.js Social Request Form](https://forms.gle/Y5Jo42tb1AMqn9Rj8).
+
+If you have any questions, please review the [Node.js Social Guidelines](https://docs.google.com/document/d/1yrYZJ2twrbpUuScbo3rmN_v-Jfv6d2tO74nCT6PcpxI/edit?usp=share_link).
+
+<details>
+
+<summary>Previous instructions</summary>
 
 ## How we approach content for Twitter
 
@@ -43,3 +52,5 @@ Thank you to all the people who helped make it happen 🙌
 ```
 
 For security release tweets, the process is documented here: https://github.com/nodejs/node/blob/master/doc/contributing/security-release-process.md
+
+</details>
